@@ -1,0 +1,10 @@
+{
+  "name": "progress",
+  "version": "0.4.1",
+  "description": "A one-line progress band above the prompt that Claude sets with a percent, a state and a short text",
+  "author": {
+    "name": "jason301c",
+    "url": "https://github.com/jason301c"
+  },
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "jason301c",
+  "description": "Claude Code plugins by jason301c",
+  "owner": {
+    "name": "jason301c"
+  },
+  "plugins": [
+    {
+      "name": "progress",
+      "source": "./progress",
+      "description": "A progress band above the prompt that Claude sets with a percent, a state and a short text"
+    }
+  ]
+}
