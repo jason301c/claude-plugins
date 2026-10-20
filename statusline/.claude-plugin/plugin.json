@@ -1,0 +1,17 @@
+{
+  "name": "statusline",
+  "version": "0.4.0",
+  "description": "Status line with connected MCP servers and this session's API-equivalent spend and models",
+  "author": {
+    "name": "jason301c",
+    "url": "https://github.com/jason301c"
+  },
+  "userConfig": {
+    "terminalScript": {
+      "type": "boolean",
+      "title": "Terminal script draws the figures",
+      "description": "Set when your own statusLine command reads ~/.cache/claude-statusline-<session id>.json; the plugin then shows no line of its own in a terminal",
+      "default": false
+    }
+  }
+}

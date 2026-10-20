@@ -6,9 +6,24 @@
   },
   "plugins": [
     {
+      "name": "agents-skills",
+      "source": "./agents-skills",
+      "description": "Load skills from .agents/skills as Claude Code skills"
+    },
+    {
+      "name": "images",
+      "source": "./images",
+      "description": "Image generation and editing with GPT Image 2.5 Flare through OpenRouter"
+    },
+    {
       "name": "progress",
       "source": "./progress",
       "description": "A progress band above the prompt that Claude sets with a percent, a state and a short text"
+    },
+    {
+      "name": "statusline",
+      "source": "./statusline",
+      "description": "Status line with connected MCP servers and this session's API-equivalent spend and models"
     }
   ]
 }

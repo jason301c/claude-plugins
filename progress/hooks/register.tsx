@@ -142,7 +142,10 @@ function trackSvg(progress: Progress, width: number): string {
     (icon ? `<path d="${icon}" transform="translate(${left} 5) scale(.5)" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>` : '') +
     `<text x="${left + iconWidth}" y="${h / 2 + 4.2}" class="k">${escape(label)}</text>`
 
+  // The interactive Svg draws in a sandboxed frame. A frame whose color scheme differs from the app's
+  // paints an opaque white page behind the drawing, so the drawing declares both schemes
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${h}" viewBox="0 0 ${width} ${h}"><style>
+:root,svg{color-scheme:light dark;background:transparent}
 rect[class]{width:2px;height:2px;fill:${color};fill-opacity:.7}.off{opacity:0}
 ${clocks}
 @keyframes on{0%,45%,100%{opacity:1}75%{opacity:0}}

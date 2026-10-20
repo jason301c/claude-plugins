@@ -1,0 +1,23 @@
+{
+  "name": "images",
+  "version": "0.4.2",
+  "description": "Image generation and editing with GPT Image 2.5 Flare through OpenRouter, as a tool Claude can call",
+  "author": {
+    "name": "jason301c",
+    "url": "https://github.com/jason301c"
+  },
+  "userConfig": {
+    "openRouterApiKey": {
+      "type": "string",
+      "title": "OpenRouter API key",
+      "description": "Used for every image request; billed to this OpenRouter account",
+      "sensitive": true
+    },
+    "outputDir": {
+      "type": "string",
+      "title": "Folder for generated images",
+      "description": "Absolute path, or empty for ~/Pictures/claude-images",
+      "default": ""
+    }
+  }
+}

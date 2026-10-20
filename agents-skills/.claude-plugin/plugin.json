@@ -1,0 +1,9 @@
+{
+  "name": "agents-skills",
+  "version": "0.1.0",
+  "description": "Load skills from .agents/skills (home and every folder above the working directory) as Claude Code skills",
+  "author": {
+    "name": "jason301c",
+    "url": "https://github.com/jason301c"
+  }
+}
