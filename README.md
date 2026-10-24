@@ -5,11 +5,11 @@ Claude Code plugins by jason301c.
 Add the marketplace once, then install the plugins you want:
 
 ```bash
-claude plugin marketplace add jason301c/claude-plugins
+claude plugin marketplace add jasons-work-projects/claude-plugins
 claude plugin install progress@jason301c
 ```
 
-Or ask Claude: "Add the plugin marketplace jason301c/claude-plugins and install the progress plugin from it." Start a new session afterwards so the plugin loads.
+Or ask Claude: "Add the plugin marketplace jasons-work-projects/claude-plugins and install the progress plugin from it." Start a new session afterwards so the plugin loads.
 
 The plugins use function-hook modules, so they need a recent Claude Code version. To get updates, run `claude plugin marketplace update jason301c`.
 
